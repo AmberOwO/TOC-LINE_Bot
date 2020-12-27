@@ -51,9 +51,9 @@ class TocMachine(GraphMachine):
 
     def on_enter_info(self, event):
         print("I'm entering picture")
-        
+
         reply_token = event.reply_token
-        send_image_url(reply_token, 'https://imgur.com/a/u8KuxUb')
+        send_image_url(reply_token, 'https://i.imgur.com/UCffyNH.png')
 
         self.go_back()
 
