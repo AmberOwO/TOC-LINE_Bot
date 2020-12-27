@@ -53,7 +53,7 @@ class TocMachine(GraphMachine):
         print("I'm entering picture")
         
         reply_token = event.reply_token
-        send_image_url(reply_token, https://imgur.com/a/u8KuxUb)
+        send_image_url(reply_token, 'https://imgur.com/a/u8KuxUb')
 
         self.go_back()
 
